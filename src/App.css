@@ -9,15 +9,48 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-image: url("https://images.pexels.com/photos/2312369/pexels-photo-2312369.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  min-height: 93vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
+
+.projectGroup{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 20%;
+}
+
+.projectGroup h1{
+  margin: auto;
+}
+.projectGroup img{
+  position: relative;
+   width: 100%;
+
+   height: 100%;
+
+}
+
+@media only screen and (max-width: 550px) {
+  .projectGroup{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: none;
+
+  }
+}
+
+
 
 .App-link {
   color: #61dafb;
