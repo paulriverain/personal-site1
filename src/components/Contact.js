@@ -7,7 +7,8 @@ class Contact extends Component {
     return (
       <Fragment>
         <div className='App'>
-            <h1> Paul's Contact </h1>
+            <h1>Paul's Contact</h1>
+            
         </div>
       </Fragment>
     );

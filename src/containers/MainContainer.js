@@ -16,9 +16,14 @@ class MainContainer extends Component {
 
         <About/>
 
-        <ProjectPage/>
+        <Fragment>
 
-        <Contact/>
+          <ProjectPage/>
+          <Contact/>
+
+        </Fragment>
+
+
       </div>
     );
   }

@@ -6,9 +6,9 @@ class ProjectPage extends Component {
   render(){
     return (
         <div className="projects">
-
-        <h1>Projects</h1>
+        <br />
           <div className="projectGroup">
+          <h1>Projects</h1>
             <h2>Language Ladder</h2>
             <a target="_blank" href="https://www.youtube.com/watch?v=_a73TgHXshc&feature=youtu.be"><img src='https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/67375803_2320895117958905_1299386473585311744_n.jpg?_nc_cat=107&_nc_oc=AQnk6MamOE-VCoDkgre1wxdlPWGJuZ7PvsYP-hyDijGTROxXNKn1kHYENfrUxeU4P24&_nc_ht=scontent-lga3-1.xx&oh=823582a82a72ec74e53ed0851c4da935&oe=5DEDDF34'/></a>
             <h5><a target="_blank" href="https://www.youtube.com/watch?v=_a73TgHXshc&feature=youtu.be">Language Ladder</a> is an interactive single-page Translator site that enables users to climb over any language barriers they encounter.</h5><br />

@@ -19,10 +19,10 @@ handleContact = () =>{
     return (
       <Fragment>
         <ul>
-          <li className='name'><a onClick={this.handleAbout} href="#About">Paul Riverain</a></li>
+          <li className='name'><a onClick={this.handleAbout} href="">Paul Riverain</a></li>
           <li><a onClick={this.handleProject} href="#Projects">Projects</a></li>
           <li><a onClick={this.handleContact} href="#Contact">Contact</a></li>
-          <li><a onClick={this.handleAbout} href="#About">About</a></li>
+          <li><a onClick={this.handleAbout} href="">About</a></li>
         </ul>
 
 

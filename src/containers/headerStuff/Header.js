@@ -9,7 +9,7 @@ class Header extends Component {
       <Fragment>
         <div className='App-header'>
           <div className='logo'>
-            <h1> Paul's Site </h1>
+            <h1> Paul Riverain's Site </h1>
           </div>
         </div>
         <NavBar/>
