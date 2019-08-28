@@ -5,12 +5,20 @@ class Contact extends Component {
 
   render(){
     return (
-      <Fragment>
         <div className='App'>
-            <h1>Paul's Contact</h1>
-            
-        </div>
-      </Fragment>
+        <div className='content'>
+          <section id='Contact'>
+          <Fragment>
+            <h1>Paul Riverain's Contact Information</h1>
+            <h3><u>Email:</u>  p.a.riverain@gmail.com</h3>
+            <h3><u>Cell:</u> (914)409-5517</h3>
+            <h3><u>Slack:</u>  Paul Riverain</h3>
+            <h3><u>LinkedIn:</u>  <a target="_blank" href="https://www.linkedin.com/in/paul-riverain-ba5376147/" >Paul Riverain</a></h3>
+            <h3><u>GitHub:</u>  <a target="_blank" href="https://github.com/paulriverain" >Paul Riverain</a></h3>
+          </Fragment>
+        </section>
+      </div>
+      </div>
     );
   }
 }

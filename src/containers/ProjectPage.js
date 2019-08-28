@@ -6,6 +6,7 @@ class ProjectPage extends Component {
   render(){
     return (
         <div className="projects">
+          <section id='Projects'>
         <br />
           <div className="projectGroup">
           <h1>Projects</h1>
@@ -13,14 +14,14 @@ class ProjectPage extends Component {
             <a target="_blank" href="https://www.youtube.com/watch?v=_a73TgHXshc&feature=youtu.be"><img src='https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/67375803_2320895117958905_1299386473585311744_n.jpg?_nc_cat=107&_nc_oc=AQnk6MamOE-VCoDkgre1wxdlPWGJuZ7PvsYP-hyDijGTROxXNKn1kHYENfrUxeU4P24&_nc_ht=scontent-lga3-1.xx&oh=823582a82a72ec74e53ed0851c4da935&oe=5DEDDF34'/></a>
             <h5><a target="_blank" href="https://www.youtube.com/watch?v=_a73TgHXshc&feature=youtu.be">Language Ladder</a> is an interactive single-page Translator site that enables users to climb over any language barriers they encounter.</h5><br />
 
-            <h1>--  --  --  --</h1>
+            <h1></h1>
 
 
 
 
 
 
-            <h2>Rate My Instructor</h2>
+            <h2>Rate My Instructor  (<a target="_blank" href="https://rate-my-instructor-frontend.herokuapp.com/">Demo</a>)</h2>
             <a target="_blank" href="https://www.youtube.com/watch?v=8ZFzV62FAq8&feature=youtu.be"><img src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/67145031_2320895317958885_2752462334608801792_n.jpg?_nc_cat=109&_nc_oc=AQkeai6y5j4CkXhM36vaNCqE_zls9HCFSr5m2Z_yUSSaKHyTKmg07RA8p_koJUuz43s&_nc_ht=scontent-lga3-1.xx&oh=3cfc8b6c0dcb86c12d2700c8e7b14da3&oe=5DB80DA8"/></a>
             <h5><a target="_blank" href="https://www.youtube.com/watch?v=8ZFzV62FAq8&feature=youtu.be">Rate My Instructor</a> is a feature packed application that gives students the power to rate and comment on their software bootcamp instructors.</h5><br />
 
@@ -33,7 +34,7 @@ class ProjectPage extends Component {
 
             </div>
 
-
+          </section>
         </div>
     );
   }
