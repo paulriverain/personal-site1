@@ -1,18 +1,6 @@
 import React, { Component, Fragment } from 'react'
 
-
-
-
 class NavBar extends Component {
-// handleAbout = () =>{
-//
-// }
-// handleProject = () =>{
-//
-// }
-// handleContact = () =>{
-//
-// }
 
   render(){
 

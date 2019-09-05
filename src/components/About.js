@@ -35,6 +35,9 @@ handlesHideImg= () =>{
               <a  target="_blank" href="https://github.com/paulriverain"><i className="fab fa-github-square"></i></a>
 
               <a target="_blank" href="https://learn.co/P_A_Rivers/resume" ><i className="fas fa-file-alt"></i></a>
+
+              <a href="tel:1-914-409-5517" ><i className="fa fa-phone"></i></a>
+
             </div>
 
 
@@ -43,9 +46,9 @@ handlesHideImg= () =>{
   <div className="paulBox" onPointerEnter={this.handlesShowImg} onPointerLeave={this.handlesHideImg} width="auto" height="315">
     {this.props.paulPic
       ?
-          <img target="_blank" href="https://lh5.googleusercontent.com/VeuoJw03derr0cb-nBzuEPuDY0E8LPjUKC5tOt6UQZwOZbkZAsoAFxhwEeaScYAOpsGdjL8Wa5day1yT4blnPR6hGnaCLUtVNPOolXzJ" className='mePic' src='https://lh5.googleusercontent.com/VeuoJw03derr0cb-nBzuEPuDY0E8LPjUKC5tOt6UQZwOZbkZAsoAFxhwEeaScYAOpsGdjL8Wa5day1yT4blnPR6hGnaCLUtVNPOolXzJ' alt='Picture of Paul Riverain'/>
+          <img target="_blank" href="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/69942897_2397639260284490_4172973680579575808_n.jpg?_nc_cat=108&_nc_oc=AQkzKqEKNXAD6hAlR5N8XuEyc3miTi38ABIKlMkoavOA_srNn9I4FHLYoms0o70lois&_nc_ht=scontent-lga3-1.xx&oh=0f0c43c2cbf0e085c88d8d8003f49346&oe=5DFFA15E" className='mePic' src='https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/69942897_2397639260284490_4172973680579575808_n.jpg?_nc_cat=108&_nc_oc=AQkzKqEKNXAD6hAlR5N8XuEyc3miTi38ABIKlMkoavOA_srNn9I4FHLYoms0o70lois&_nc_ht=scontent-lga3-1.xx&oh=0f0c43c2cbf0e085c88d8d8003f49346&oe=5DFFA15E' alt='Picture of Paul Riverain'/>
       :
-          <img target="_blank" href="https://keep.google.com/u/0/media/v2/16JMGi9mhLcHfEC_C9R0NrpNP6HmqbuzewR0aVYIY8Vg9IqsrBP7pfgQMGNHUc_pB/1uHw0YWgKbYzp-cVP_BCPKFwdGweq2RimeiT2n4_YGV_91NOkdYSGG20y0uacLA1e?accept=image/gif,image/jpeg,image/jpg,image/png,image/webp,audio/aac&sz=398" className='mePic' src='https://lh6.googleusercontent.com/asz_5xVSfYaQjeOONm5GxBT0OqYS_Z95Wf8GUrBefu-BfK4FGyEGhWIEtoFuLfqCuQsPSJPLFSbKRvFgz9CQZ8TFpDA8RU6rtbRTbATX' alt='Picture of Paul Riverain in black and white'/>
+          <img target="_blank" href="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/69718252_2397639420284474_3902879289166528512_n.jpg?_nc_cat=101&_nc_oc=AQmcbw3uawZ76u4iPAjIxtmyHexF08ECOI8STj0PiBbjFoTQirjYyta8mkRzNy-alQI&_nc_ht=scontent-lga3-1.xx&oh=0d92b59aa972a2f9cd907fa8610cca0c&oe=5E134D71" className='mePic' src='https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/69718252_2397639420284474_3902879289166528512_n.jpg?_nc_cat=101&_nc_oc=AQmcbw3uawZ76u4iPAjIxtmyHexF08ECOI8STj0PiBbjFoTQirjYyta8mkRzNy-alQI&_nc_ht=scontent-lga3-1.xx&oh=0d92b59aa972a2f9cd907fa8610cca0c&oe=5E134D71' alt='Picture of Paul Riverain in black and white'/>
     }
   </div>
 

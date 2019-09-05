@@ -9,9 +9,10 @@ class Footer extends Component {
           <div className='footer'>
           <Fragment>
 
-          <p><u> Email: </u>  p.a.riverain@gmail.com ||
+          <p><u> Email: </u> <a href="p.a.riverain@gmail.com" >p.a.riverain@gmail.com</a> ||
 
-          <u> Cell: </u> (914)409-5517 ||
+          <u> Cell: </u> <a href="tel:1-914-409-5517" >(914)409-5517</a> ||
+
 
           <u> Slack: </u>  Paul Riverain ||
 

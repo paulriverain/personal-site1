@@ -25,7 +25,7 @@ class ProjectPage extends Component {
             <a target="_blank" href="https://www.youtube.com/watch?v=8ZFzV62FAq8&feature=youtu.be"><img src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/67145031_2320895317958885_2752462334608801792_n.jpg?_nc_cat=109&_nc_oc=AQkeai6y5j4CkXhM36vaNCqE_zls9HCFSr5m2Z_yUSSaKHyTKmg07RA8p_koJUuz43s&_nc_ht=scontent-lga3-1.xx&oh=3cfc8b6c0dcb86c12d2700c8e7b14da3&oe=5DB80DA8"/></a>
             <h5><a target="_blank" href="https://www.youtube.com/watch?v=8ZFzV62FAq8&feature=youtu.be">Rate My Instructor</a> is a feature packed application that gives students the power to rate and comment on their software bootcamp instructors.</h5><br />
 
-            <h1>--  --  --  --</h1>
+            <h1></h1>
 
 
             <h2>Riverain Recreation</h2>

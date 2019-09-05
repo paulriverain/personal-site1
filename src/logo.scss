@@ -1,0 +1,40 @@
+
+
+// html,
+// body {
+//   margin: 0;
+//   padding: 0;
+// }
+
+// .wildBackground {
+//   position: absolute;
+//   display: block;
+//   top: 0;
+//   left: 0;
+//   z-index: 1;
+//   color: red;
+// }
+
+
+
+
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wildBackground {
+  font-size: 3em;
+  min-height: 93.8vh;
+
+
+
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}

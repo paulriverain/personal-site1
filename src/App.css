@@ -40,10 +40,14 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: black;
+  /* color: black; */
+  /* background-color: grey; */
 
   background-attachment: fixed;
 }
+
+
+
 .logo h1{
   font-size: 2em;
   text-decoration: overline underline;
