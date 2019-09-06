@@ -39,13 +39,13 @@ var Particles = (function(window, document) {
       _.defaults = {
         responsive: null,
         selector: null,
-        maxParticles: 100,
+        maxParticles: 80,
         sizeVariations: 3,
         showParticles: true,
-        speed: 0.5,
-        color: '#000000',
+        speed: 0.4,
+        color: '#472D30',
         minDistance: 120,
-        connectParticles: false,
+        connectParticles: true,
       };
 
       _.element = null;
@@ -391,27 +391,24 @@ var Particles = (function(window, document) {
    * @param {Particle} p2
    * @param {number} opacity
    */
-   Plugin.prototype._drawEdge = function(p1, p2, opacity) {
+  Plugin.prototype._drawEdge = function(p1, p2, opacity) {
+    var _ = this,
+        gradient = _.context.createLinearGradient(p1.x, p1.y, p2.x, p2.y);
 
-     var _ = this,
+    var color1 = this._hex2rgb(p1.color);
+    var color2 = this._hex2rgb(p2.color);
 
-         gradient = _.context.createLinearGradient(p1.x, p1.y, p2.x, p2.y);
+    gradient.addColorStop(0, 'rgba(' + color1.r + ',' + color1.g + ',' + color1.b + ',' + opacity + ')');
+    gradient.addColorStop(1, 'rgba(' + color2.r + ',' + color2.g + ',' + color2.b + ',' + opacity + ')');
 
-     var color1 = this._hex2rgb(p1.color);
-     var color2 = this._hex2rgb(p2.color);
-
-
-     gradient.addColorStop(0, 'rgba(' + color1.r + ',' + color1.g + ',' + color1.b + ',' + opacity + ')');
-     gradient.addColorStop(1, 'rgba(' + color2.r + ',' + color2.g + ',' + color2.b + ',' + opacity + ')');
-
-     _.context.beginPath();
-     _.context.strokeStyle = gradient;
-     _.context.moveTo(p1.x, p1.y);
-     _.context.lineTo(p2.x, p2.y);
-     _.context.stroke();
-     _.context.fill();
-     _.context.closePath();
-   };
+    _.context.beginPath();
+    _.context.strokeStyle = gradient;
+    _.context.moveTo(p1.x, p1.y);
+    _.context.lineTo(p2.x, p2.y);
+    _.context.stroke();
+    _.context.fill();
+    _.context.closePath();
+  };
 
   /**
    * Merges the keys of two objects.
@@ -548,10 +545,10 @@ var Particles = (function(window, document) {
 
   return new Plugin();
 })(window, document);
-console.log('give me something: ');
 
 (function() {
-'use strict';
+  'use strict';
+
   var define
 
   if(typeof define === 'function' && define.amd) {

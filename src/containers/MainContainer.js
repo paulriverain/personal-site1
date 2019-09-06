@@ -6,7 +6,6 @@ import About from '../components/About.js'
 import Contact from '../components/Contact.js'
 import Footer from '../components/Footer.js'
 
-// import '../particles.js'
 
 
 class MainContainer extends Component {
@@ -22,13 +21,6 @@ handleChangePic = () =>{
 
 
   render(){
-
-
-    // window.onload = function() {
-    //   Particles.init({
-    //     selector: '.background'
-    //   });
-    // };
 
     return (
       <div className="App">

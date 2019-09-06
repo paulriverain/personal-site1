@@ -9,12 +9,46 @@ class Contact extends Component {
         <div className='content'>
           <section id='Contact'>
           <Fragment>
-            <h1>Paul Riverain's Contact Information</h1>
-            <h3><u>Email:</u>  p.a.riverain@gmail.com</h3>
-            <h3><u>Cell:</u> (914)409-5517</h3>
-            <h3><u>Slack:</u>  Paul Riverain</h3>
-            <h3><u>LinkedIn:</u>  <a target="_blank" href="https://www.linkedin.com/in/paul-riverain-ba5376147/" >Paul Riverain</a></h3>
-            <h3><u>GitHub:</u>  <a target="_blank" href="https://github.com/paulriverain" >Paul Riverain</a></h3>
+            <h1>Contact Information</h1>
+
+
+            <div className="contactInfo">
+              <div className="grid-item">
+                <h3><u>Email:</u></h3>
+              </div>
+
+              <div className="grid-item">
+                <a href="mailto:p.a.riverain@gmail.com" target="_top">p.a.riverain@gmail.com</a>
+              </div>
+
+              <div className="grid-item">
+                <h3><u>Cell:</u></h3>
+              </div>
+
+              <div className="grid-item">
+                <a href="tel:1-914-409-5517" >(914)409-5517</a>
+              </div>
+
+              <div className="grid-item">
+                <h3><u>LinkedIn:</u></h3>
+              </div>
+
+              <div className="grid-item">
+                <a target="_blank" href="https://www.linkedin.com/in/paul-riverain-ba5376147/" >Paul Riverain</a>
+              </div>
+
+              <div className="grid-item">
+                <h3><u>GitHub:</u></h3>
+              </div>
+
+              <div className="grid-item">
+                <a target="_blank" href="https://github.com/paulriverain" >Paul Riverain</a>
+              </div>
+
+            </div>
+
+
+
           </Fragment>
         </section>
       </div>
