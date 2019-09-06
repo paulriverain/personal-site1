@@ -39,10 +39,10 @@ var Particles = (function(window, document) {
       _.defaults = {
         responsive: null,
         selector: null,
-        maxParticles: 80,
-        sizeVariations: 3,
+        maxParticles: 100,
+        sizeVariations: 5,
         showParticles: true,
-        speed: 0.4,
+        speed: 0.3,
         color: '#472D30',
         minDistance: 120,
         connectParticles: true,
