@@ -25,8 +25,9 @@ class Header extends Component {
 
           </div>
 
-
-          <canvas class="weirdBackground" src="path/to/particles.min.js"></canvas>
+          <div className='logoStuf'>
+            <canvas className="weirdBackground" src="path/to/particles.min.js"></canvas>
+          </div>
         </div>
 
         </section>
