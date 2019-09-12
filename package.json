@@ -1,9 +1,10 @@
 {
-  "homepage":"https://paulriverain.github.io/Paul_Riverains_Website"
+  "homepage": "https://paulriverain.github.io/personal-site",
   "name": "personal-site",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "gh-pages": "^2.1.1",
     "node-sass": "^4.12.0",
     "particlesjs": "^2.2.3",
     "react": "^16.8.6",
@@ -14,8 +15,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",  
-
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
