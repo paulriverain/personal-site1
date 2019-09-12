@@ -6,7 +6,7 @@ class Contact extends Component {
   render(){
     return (
         <div className='App'>
-        <div className='content'>
+        <div className='contactContent'>
           <section id='Contact'>
           <Fragment>
             <h1>Contact Information</h1>
@@ -17,31 +17,31 @@ class Contact extends Component {
                 <h3><u>Email:</u></h3>
               </div>
 
-              <div className="grid-item">
+              <div className="contactGrid-item">
                 <a href="mailto:p.a.riverain@gmail.com" target="_top">p.a.riverain@gmail.com</a>
               </div>
 
-              <div className="grid-item">
+              <div className="contactGrid-item">
                 <h3><u>Cell:</u></h3>
               </div>
 
-              <div className="grid-item">
+              <div className="contactGrid-item">
                 <a href="tel:1-914-409-5517" >(914)409-5517</a>
               </div>
 
-              <div className="grid-item">
+              <div className="contactGrid-item">
                 <h3><u>LinkedIn:</u></h3>
               </div>
 
-              <div className="grid-item">
+              <div className="contactGrid-item">
                 <a target="_blank" href="https://www.linkedin.com/in/paul-riverain-ba5376147/" >Paul Riverain</a>
               </div>
 
-              <div className="grid-item">
+              <div className="contactGrid-item">
                 <h3><u>GitHub:</u></h3>
               </div>
 
-              <div className="grid-item">
+              <div className="contactGrid-item">
                 <a target="_blank" href="https://github.com/paulriverain" >Paul Riverain</a>
               </div>
 

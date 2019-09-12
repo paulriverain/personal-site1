@@ -1,29 +1,3 @@
-/* .navbar {
-  background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  display: block;
-  transition: top 0.3s;
-}
-
-.navbar button {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 15px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.navbar button:hover {
-  background-color: #ddd;
-  color: black;
-} */
-/* body {
-  font-size: 28px;
-} */
 
 ul {
   z-index: 2;
@@ -32,11 +6,11 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #723D46;
-   /* color: #66fcf1; */
   opacity: .8;
-  position: -webkit-sticky; /* Safari */
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
+  margin-bottom: 5vh;
 }
 
 li {

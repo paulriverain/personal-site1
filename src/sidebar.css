@@ -1,39 +1,52 @@
+.sideCon::before{
+  content: "";
+  display: block;
+  width: 2px;
+  height: 15vh;
+  background-color: #472D30;
+  margin: 0px auto;
+}
 
 .sideCon{
-
-  float: left;
   width: 130px;
-  z-index: 3;
-  overflow: none;
   opacity: .8;
-  position: -webkit-sticky;
-  /* -webkit-transform: translateY(-50);
-   -ms-transform: translateY(-50%);
-   transform: translateY(-50%); */
+  padding-top: 15vh;
+  align-items: center;
+}
 
-  position: sticky;
-  top: 0;
-  padding-top: 10vh;
-
-
-
-  /* position: fixed;
- top: 20%;
- -webkit-transform: translateY(-50%);
- -ms-transform: translateY(-50%);
- transform: translateY(-50%);
- z-index: 3 */
+.sideCon::after{
+  content: "";
+    display: block;
+    width: 2px;
+    height: 15vh;
+    background-color: #472D30;
+    margin: 0px auto;
 }
 
 
 .sideCon a{
   font-size: 2em;
-
+  /* z-index: 3; */
   display: block;
   padding: 10%;
   color: #472D30;
   opacity: .8;
 }
+
+
+
+.outSideCon{
+  width: 130px;
+  max-height: 0;
+  z-index: 0;
+
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+
+
 
 
 @media only screen and (max-width: 804px) {

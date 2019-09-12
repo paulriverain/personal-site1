@@ -40,16 +40,19 @@ handlesLoadState = () =>{
 
         <Header/>
 
-        <SideBar/>
 
-        <About paulPic={this.state.paulPic} handleChangePic={this.handleChangePic}/>
+            <About paulPic={this.state.paulPic} handleChangePic={this.handleChangePic}/>
+
+            <div className='outSideCon'>
+            <SideBar/>
+            </div>
 
 
-        <ProjectPage/>
+            <ProjectPage/>
 
-        <Contact/>
+            <Contact/>
 
-        <Footer/>
+            <Footer/>
 
 
       </div>

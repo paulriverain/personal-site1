@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, {  Component, Fragment } from "react";
 
 
 class SideBar extends Component {
@@ -7,6 +7,7 @@ class SideBar extends Component {
 
   render() {
     return (
+      <Fragment>
       <div className="sideCon">
 
         <a href="mailto:p.a.riverain@gmail.com" target="_top"><i className="fa fa-envelope"></i></a>
@@ -21,6 +22,8 @@ class SideBar extends Component {
         <a href="tel:1-914-409-5517" ><i className="fa fa-phone"></i></a>
 
       </div>
+      
+      </Fragment>
     )
   }
 }
