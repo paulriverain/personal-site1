@@ -29,7 +29,7 @@ handlesHideImg= () =>{
       <div className="textBio">
         <h1>About Me</h1>
 
-        <h4>I am a full stack web developer with a passion for creating optimized, user friendly web applications with superior functionality and accessibility.  I'm a driven leader with an endless desire to learn, grow, and overcome obstacles.  I have experience working with JavaScript, React.js, Ruby, Ruby on Rails, ActiveRecord, Sinatra, SQL, HTML and CSS.  I bring strong communication and leadership skills, ensuring excellent group cohesiveness, maximizing productivity and workflow.</h4>
+        <h3>I am a full stack web developer with a passion for creating optimized, user friendly web applications with superior functionality and accessibility.  I'm a driven leader with an endless desire to learn, grow, and overcome obstacles.  I have experience working with JavaScript, React.js, Ruby, Ruby on Rails, ActiveRecord, Sinatra, SQL, HTML and CSS.  I bring strong communication and leadership skills, ensuring excellent group cohesiveness, maximizing productivity and workflow.</h3>
       </div>
 
       <div className="paulBox" onPointerEnter={this.handlesShowImg} onPointerLeave={this.handlesHideImg} width="auto" height="315">
